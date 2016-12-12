@@ -51,6 +51,9 @@ The ATS Reference Guide is divided into the following different sections, each d
 
 ## [Test Run](test-run)
 
+*   [Test Run Configuration](test-run)
+*   [Supported selenium hub provider](supported-selenium-hub-provider)
+
 ## [Configuration](configuration)
 
 *   [Configure Selenium hubs](configuration#configure-the-selenium-hubs)
