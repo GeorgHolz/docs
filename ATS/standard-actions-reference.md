@@ -162,3 +162,4 @@ A <i>ConfirmationDialog</i> is shown when a delete or microflow action requires 
 + [Execute JavaScript String](selenium-actions/execute-javascript-string)
 + [Execute JavaScript WebElement](selenium-actions/execute-javascript-webelement)
 + [Send Keys](selenium-actions/send-keys)
++ [Click Coordinates](selenium-actions/click-coordinates)
