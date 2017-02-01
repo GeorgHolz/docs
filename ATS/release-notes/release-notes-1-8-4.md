@@ -6,18 +6,18 @@ category: "Release Notes"
 
 Date: February 1, 2017
 
-## New Selenium Action
-* Added new click coordinates action, which enables ATS to click any point in the application, defined by x-y-coordinates. For more informations visit [Click Coordinates Reference page](/selenium-actions/click-coordinates).
+## New Action
+* Added a new action to click a x-y-coordinate within the browser window or a certain UI element. Visit the [Reference guide](/selenium-actions/click-coordinates) for more details.
 
 ## Improvements
-* Changed the sorting of active and inactive scheduled tests. For active scheduled tests, the tests which will be executed next, will now be set on top of the list. For inactive scheduled tests, the test which hasn't been scheduled for the longest time, is set on first position.
-* The tear down failure warning text on the Monitoring/Result page has been replaced by a warning icon. The original text is still displayed as tooltip for the icon.
+* Improved the sorting of scheduler items. The items are now shown in order of next execution time. The top item is the one that is executed next.
+* Added a new warning icon on the Monitoring/Results page that indicates a failure in the tear down procedure of a test.
 
 ## Fixes
-* Fixed a bug, where an endless loop of dialogs was displayed, if a user tried to link a story to a test case.
-* Fixed a bug, where not all of the possible test data fields were displayed inside a test case, if the master data set had more than 30 field entries.
-* The name of the root folder in the repository will now change, if the project has been renamed.
+* Fixed a bug where the dialog to link a story to a test case was not closed properly.
+* If you configured a data set with more than 30 fields for your test case, only the first 30 fields could be used due to a UI bug. This has been fixed.
+* A change of the project name now also updates the root folder in the repository.
 * Fixed a bug, where users were able to select selenium configurations and applications from other projects in the test run configuration.
 * Fixed a bug, where the chart on the project selection page did not show the same results as the chart on the project dashboard.     
-* The "Show Log" link is now only displayed, if the test has execution logs to show.
-* Fixed a bug, where test cases have been set in wrong order, if the user tried to add them to a newly created test suite. 
+* The "Show Log" link on the project dashboard is now hidden for tests that have never been executed.
+* Fixed a bug, where test cases were added in the wrong order to an empty test suite. 
