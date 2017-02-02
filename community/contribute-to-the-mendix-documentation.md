@@ -1,5 +1,5 @@
 ---
-title: "How to Contribute to the Mendix Documentation"
+title: "Contribute to the Mendix Documentation"
 space: "Community"
 parent: "community-documentation"
 ---
@@ -44,8 +44,14 @@ To edit the existing documentation (for example, a how-to or reference guide pag
 2. Find the files in the repository and make your changes (make sure your changes align with our [Content Writing and Formatting Guidelines](content-writing-and-formatting-guidelines)).
 3. Create a pull request that specifies our **development** branch as the base. For more information, see [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
+
+You can add and edit the description and tags metadata in the header of the document so that the document is more searchable. It is also possible to add how many table of contents levels you want to appear in the document. For more information on the metadata, see the [How-To Template](the-how-to-template-page) and [Reference Guide Page Template](the-reference-guide-page-template-page).
+
+</div><div class="alert alert-warning">
+
 Mendix supports documentation for three major versions at any one time. This means that if you make a documentation change in one version, it is important to make that same change in the documentation for the two previous versions (if the change is applicable, of course). For example, you make a change for Mendix version 6 but these changes are also applicable to Mendix versions 5 and 4, so you should make the same change in the documentation for Mendix versions 5 and 4. You can submit all of these changes in the same pull request.
+
 </div>
 
 ## 4 Writing a New How-To or Reference Guide Page
@@ -66,14 +72,17 @@ You may receive a response to your pull request asking for verification of speci
 
 ## <a name="NamingNewFilesandImages"></a>5 Naming New Files and Images
 
-When writing a new how-to or reference guide page, make sure the Markdown file name is the same as the title of the document. Use a plus sign ("+") between each word of your file name (for example, "Clear+Warning+Messages").
+When writing a new how-to or contributing to the documentation, make sure the files comply with our naming conventions:
 
-When adding new image files, make sure the image file name describes what the image shows (meaning, labels on the UI and any specific data). Use underscores ("`_`") between each word of your image file name (for example, "New_App_Starting_Screen").
-
-The following image file types are allowed: *.jpg*, *.png*, *.gif*.
+ * Markdown file names should have the same name as the title of the page (for example, if the page is titled "Set Up Your Project," the filename should be ``setup-your-project.md``)
+ * File names should always be lower-case, with a hyphen (`-`) between each word
+  * Do not use spaces or any other symbols in the file name (for example, `&`), as these will not be accepted
+ * Images should be named in the same way: lower-case with a dash between each word
+  * Make sure the image files have names that make sense, so it's easier to find them later on
+ * The following image file types are allowed: `.jpg`, `.png`, `.gif`
 
 ## 6 Related Content
 
+* [Content Writing and Formatting Guidelines](content-writing-and-formatting-guidelines)
 * [How-To Template](the-how-to-template-page)
 * [Reference Guide Page Template](the-reference-guide-page-template-page)
-* [Content Writing and Formatting Guidelines](content-writing-and-formatting-guidelines)

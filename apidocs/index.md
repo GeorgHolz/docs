@@ -1,6 +1,7 @@
 ---
 title: "API Documentation"
-space: "API documentation"
+space: "API Documentation"
+priority: 8
 ---
 
 The API documentation is divided into the sections described below.
@@ -45,7 +46,7 @@ Integrate your company's user management systems with the Mendix App Platform. C
 
 The Mendix Single Sign-On system is based on OpenID. Learn how to connect your (non-Mendix) app to the Mendix Identity Provider.
 
-*   [SSO API](single-sign_on-api)
+*   [SSO API](single-sign-on-api)
 
 # Build API
 

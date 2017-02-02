@@ -14,6 +14,11 @@
       }
     });
 
+    // Make tooltips visible
+    $('[data-toggle="tooltip"]').tooltip({
+      html: true
+    });
+
     /*****************
       Overview blocks
     ******************/
@@ -39,17 +44,24 @@
       return id.replace(/[ '"\+\-&]+/g, "-").toLowerCase();
     }
 
-    function normalizeUrl(url) {
-      // if (typeof url === 'string' && url.substr(-1) === '/') {
-      //   url = url.slice(0, -1);
-      // }
-      return url;
+    function sortPages(arr, getModifier, numFunc) {
+      return arr.sort(function (p1, p2) {
+        return numFunc(getModifier(p1)) - numFunc(getModifier(p2));
+      });
+    }
+
+    function sortModelerPages(arr) {
+      return sortPages(
+        arr,
+        function (p) { return p.id.replace("modeler-","").split(".").map(function (n) { return parseInt(n, 10) }); },
+        function (n) { return (n[0] ? n[0] * 10000 : 0) + (n[1] ? n[1] * 100 : 0) + (n[2] || 0); }
+      );
     }
 
     function addNormalLink(title, url) {
       return $([
         '<i class="link-icon link-icon-link"></i>',
-        url === null ? '' : '<a href="' + normalizeUrl(url) + '" data-page-title="' + title + '" title="' + title + '">',
+        url === null ? '' : '<a href="' + url + '" data-page-title="' + title + '" title="' + title + '">',
         '<div class="category-title" ' + (url === null ? 'data-page-title="' + title + '"' : '') + '>' + title + '</div>',
         url === null ? '' : '</a>'
       ].join(''));
@@ -60,7 +72,7 @@
         '<a class="expand-link" href="#' + id + '" data-toggle="collapse" aria-expanded="false" aria-controls="' + id + '">',
         '<i class="link-icon link-icon-menu"></i>',
         '</a>',
-        url === null ? '' : '<a title="' + title + '" data-page-title="' + title + '" href="' + normalizeUrl(url) + '">',
+        url === null ? '' : '<a title="' + title + '" data-page-title="' + title + '" href="' + url + '">',
         '<div class="category-title" ' + (url === null ? 'data-page-title="' + title + '"' : '') + '>' + title + '</div>',
         url === null ? '' : '</a>',
       ].join(''));
@@ -95,6 +107,10 @@
           catPage = data.pages.filter(function (page) { return page.title.toLowerCase() === cat.toLowerCase(); });
 
       var catUrl = catPage && catPage.length === 1 ? catPage[0].url : null;
+
+      if (catUrl === "/releasenotes/modeler/") {
+        getPages = sortModelerPages(getPages);
+      }
 
       if (getPages.length === 0 && catUrl) {
         $cat.append(addNormalLink(cat, catUrl));
@@ -232,10 +248,12 @@
     /*****************
       Table of contents
     ******************/
+    var maxLevel = $('#toc') ? $('#toc').data('level') || null : null;
     $('#toc').toc({
       noBackToTopLinks: true,
       title: '<span class="toc_title">Table of contents</span>',
       showEffect: 'slideDown',
+      maxLevel: maxLevel,
       showSpeed: '250',
       listType: 'ul',
       headers: [
@@ -253,49 +271,25 @@
     });
 
     /*****************
-      Github file info
+      Git file info
     ******************/
-    $('.github_file_info').each(function () {
-      $this = $(this), path = $this.data('path');
-      if (path) {
-        $.get('https://api.github.com/repos/mendix/docs/commits?sha=master&path=' + encodeURIComponent(path), {}, function (data) {
-          if (data.length === 0) { return; }
-          var first = data[0];
-          $this.find('.link').attr('href', first.html_url);
-          if (first.committer) {
-            if (first.committer.html_url) {
-              $this.find('.author').attr('href', first.committer.html_url);
-            }
-          }
-          if (first.commit && first.commit.author) {
-            if (first.commit.author.name) {
-              $this.find('.author').text(first.commit.author.name);
-            }
-            if (first.commit.author.date) {
-              var m = moment(first.commit.author.date);
-              $this.find('.datetime').text(m.fromNow());
-            }
-          }
+    $('.post .history time').each(function() {
+      var $el = $(this),
+          m = moment($el.text());
 
-          var committers = {},
-              contributors = 0;
-          $.each(data, function (i, d) {
-            var author = d.author;
-            if (author && author.login && author.url && author.avatar_url) {
-              if (!committers[author.login]) {
-                committers[author.login] = true; contributors++;
-                $('<img src="' + author.avatar_url + '" alt="' + author.login + '" />').appendTo($this.find('.github_file_info_contributors'));
-              }
-            }
-          });
-          if (contributors == 0) {
-            $this.find('.github_file_info_contributors').hide();
-          } else {
-            $this.find('.github_file_info_count').text(contributors + ' contributor' + (contributors > 1 ? 's' : ''));
-          }
-          $this.show();
-        }, 'json');
+      if (m.isValid()) {
+        $el.text(m.fromNow());
+      } else {
+        $el.remove();
       }
     });
+
+    /*****************
+      Code highlighting
+    ******************/
+    $('pre').each(function () {
+      $(this).addClass('line-numbers');
+    });
+
   });
 })(jQuery));

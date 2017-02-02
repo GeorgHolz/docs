@@ -10,7 +10,7 @@ This document presents guidelines for creating a common voice, style, and struct
 
 # 2 Types of Documentation
 
-## 2.1 The How-to's
+## 2.1 The How-To's
 
 The how-to's are contextual and version-specific guides on Mendix topics that take you through the necessary steps to achieve a goal, whether it's adding a Google Maps widget to your UI, importing Excel files, or consuming a web service. The how-to's use relevant information on Mendix components to create realistic scenarios with specific contexts, and they should deliver functionalities.
 
@@ -51,7 +51,7 @@ When contributing to the Mendix documentation, consider these style guidelines:
 * The tone of the Mendix documentation is relaxed, conversational, not too serious, and always straight-forward
 * Define obscure acronyms and write them out fully the first time before using them throughout the rest of the document (except if it is something very well-known: for example, there is no need to remind the reader that "HTML" stands for "hypertext markup language")
 * Avoid adverbs such as “simply,” “possibly,” “might,” “could,” “actually,” and “potentially,” as these words add uncertainty and cloud the true meaning of sentences
-* Be inclusive with your langauge and do not use just "he," use "the user" or "they" instead
+* Be inclusive with your language and do not use just "he," use "the user" or "they" instead
 
 Need an extra hand with spelling and grammar? Load your article into [Hemmingway](http://www.hemingwayapp.com/) to spot any potential errors.
 
@@ -72,7 +72,7 @@ Use *italics* when the user needs to enter text. For example: "In the **Name** f
 To embed a modelshare in the documentation, paste the `iframe`. For example:
 
 ```html
-<iframe width=='1oo%' height='491px' frameborder='0' src=https://modleshare.mendix.com/models/a0e6fba1-aa44-4d95-ac06-3f9fc`cca082/new-car-rental-validation?embed=true'></iframe>
+<iframe width='100%' height='491px' frameborder='0' src=https://modelshare.mendix.com/models/a0e6fba1-aa44-4d95-ac06-3f9fccca082/new-car-rental-validation?embed=true'></iframe>
 ```
 
 ## 4.4 Specific Formatting Tips
@@ -89,7 +89,7 @@ These are some tips to consider when formatting Markdown:
 
 This section presents detailed guidlines for writing a how-to. Read this section while referencing the [How-to Template](the-how-to-template-page).
 
-## 5.1 How-to Sections
+## 5.1 How-To Sections
 
 ### 5.1.1 Title
 
@@ -159,7 +159,7 @@ Add boxes, indicators, arrows, and other information to an image only if it make
 
 Keep the images as simple as possible, because having too many arrows on an image can make it confusing!
 
-## 5.2 How-to Content
+## 5.2 How-To Content
 
 ### 5.2.1 Documenting Microflows
 

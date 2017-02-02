@@ -9,6 +9,10 @@
       "to": "/"
     },
     {
+      "from": "/apidocs/Home",
+      "to": "/apidocs/"
+    },
+    {
       "from": "/apidocs/Authentication",
       "to": "/apidocs/authentication"
     },
@@ -58,7 +62,7 @@
     },
     {
       "from": "/apidocs/Single+Sign-On+API",
-      "to": "/apidocs/single-sign_on-api"
+      "to": "/apidocs/single-sign-on-api"
     },
     {
       "from": "/apidocs/Stories+API",
@@ -158,19 +162,19 @@
     },
     {
       "from": "/APM/Release+Notes",
-      "to": "/APM/release-notes"
+      "to": "/releasenotes/APM/"
     },
     {
       "from": "/APM/Release+Notes+1.6.0",
-      "to": "/APM/release-notes-1.6.0"
+      "to": "/releasenotes/APM/1.6.0"
     },
     {
       "from": "/APM/Release+Notes+1.7.0",
-      "to": "/APM/release-notes-1.7.0"
+      "to": "/releasenotes/APM/1.7.0"
     },
     {
       "from": "/APM/Release+Notes+1.8.0",
-      "to": "/APM/release-notes-1.8.0"
+      "to": "/releasenotes/APM/1.8.0"
     },
     {
       "from": "/APM/Sizing+impact",
@@ -202,27 +206,27 @@
     },
     {
       "from": "/appstore/Adding+App+Store+content+to+your+app",
-      "to": "/appstore/adding-app-store-content-to-your-app"
+      "to": "/community/use-app-store-content-in-the-modeler"
     },
     {
       "from": "/appstore/App+Store+Approval+Guidelines",
-      "to": "/appstore/app-store-approval-guidelines"
+      "to": "/community/share-app-store-content"
     },
     {
       "from": "/appstore/App+Store+Content+Support",
-      "to": "/appstore/app-store-content-support"
+      "to": "/community/app-store-content-support"
     },
     {
       "from": "/appstore/App+Store",
-      "to": "/appstore/"
+      "to": "/community/app-store"
     },
     {
       "from": "/appstore/App+Store+Home",
-      "to": "/appstore/"
+      "to": "/community/app-store"
     },
     {
       "from": "/appstore/Install+an+App+from+the+App+Store",
-      "to": "/appstore/install-an-app-from-the-app-store"
+      "to": "/community/use-app-store-content-in-the-modeler"
     },
     {
       "from": "/ATS/Administration",
@@ -654,15 +658,15 @@
     },
     {
       "from": "/ATS/Release+Notes/",
-      "to": "/ATS/release-notes/"
+      "to": "/releasenotes/ATS/"
     },
     {
       "from": "/ATS/Release+Notes/Release+Notes+1+8+0",
-      "to": "/ATS/release-notes/release-notes-1-8-0"
+      "to": "/releasenotes/ATS/1.8.0"
     },
     {
       "from": "/ATS/Release+Notes/Release+Notes+1+8+1",
-      "to": "/ATS/release-notes/release-notes-1-8-1"
+      "to": "/releasenotes/ATS/1.8.1"
     },
     {
       "from": "/ATS/Scheduling",
@@ -753,6 +757,10 @@
       "to": "/bestpractices/inheritance-vs.-1-1-association"
     },
     {
+      "from": "/bestpractices/Inheritance+vs.+1-1+association",
+      "to": "/bestpractices/inheritance-vs.-1-1-association"
+    },
+    {
       "from": "/bestpractices/Naming+conventions",
       "to": "/bestpractices/naming-conventions"
     },
@@ -770,7 +778,7 @@
     },
     {
       "from": "/community/Community+Projects",
-      "to": "/community/community-projects"
+      "to": "/community/community-tools"
     },
     {
       "from": "/community/Content+Writing+and+Formatting+Guidelines",
@@ -781,10 +789,6 @@
       "to": "/community/contribute-to-the-mendix-documentation"
     },
     {
-      "from": "/community/Feature+requests",
-      "to": "/community/feature-requests"
-    },
-    {
       "from": "/community/How+to+set+up+your+partner+profile",
       "to": "/community/how-to-set-up-your-partner-profile"
     },
@@ -793,16 +797,12 @@
       "to": "/community/how-to-set-up-your-profile"
     },
     {
-      "from": "/community/Community",
-      "to": "/community/"
-    },
-    {
       "from": "/community/The+How+to+Template+Page",
       "to": "/community/the-how-to-template-page"
     },
     {
-      "from": "/community/The+Mendix+Job+Dashboard",
-      "to": "/community/the-mendix-job-dashboard"
+      "from": "/community/The+Mendix+Job+Board",
+      "to": "/community/the-mendix-job-board"
     },
     {
       "from": "/community/The+Mendix+MVP+program",
@@ -1177,6 +1177,10 @@
       "to": "/howto50/querying-over-self-references"
     },
     {
+      "from": "/howto50/Querying+over+self-references",
+      "to": "/howto50/querying-over-self-references"
+    },
+    {
       "from": "/howto50/Restoring+a+SQL+Server+database",
       "to": "/howto50/restoring-a-sql-server-database"
     },
@@ -1293,6 +1297,10 @@
     {
       "from": "/howto50/Translatable+Validation+Messages",
       "to": "/howto50/translatable-validation-messages"
+    },
+    {
+      "from": "/howto50/Trends",
+      "to": "/mendixcloud/trends"
     },
     {
       "from": "/howto50/Triggering+Logic+using+Microflows",
@@ -1415,6 +1423,10 @@
       "to": "/howto6/create-a-basic-data-layer"
     },
     {
+      "from": "/howto6/Creating+a+Basic+Data+Layer",
+      "to": "/howto6/create-a-basic-data-layer"
+    },
+    {
       "from": "/howto6/Create+a+Basic+Hello+World+Custom+Widget",
       "to": "/howto6/create-a-basic-hello-world-custom-widget"
     },
@@ -1471,6 +1483,10 @@
       "to": "/howto6/debug-microflows"
     },
     {
+      "from": "/howto6/Debugging+Microflows",
+      "to": "/howto6/debug-microflows"
+    },
+    {
       "from": "/howto6/Debug+Microflows+Remotely",
       "to": "/howto6/debug-microflows-remotely"
     },
@@ -1509,6 +1525,10 @@
     {
       "from": "/howto6/Deploying+a+Mendix+App+to+Cloud+Foundry",
       "to": "/howto6/deploying-a-mendix-app-to-cloud-foundry"
+    },
+    {
+      "from": "/howto6/deploying+to+the+cloud",
+      "to": "/mendixcloud/deploying-to-the-cloud"
     },
     {
       "from": "/howto6/Design+the+Architecture",
@@ -1689,6 +1709,10 @@
     {
       "from": "/howto6/Monitoring+Mendix+using+JMX",
       "to": "/howto6/monitoring-mendix-using-jmx"
+    },
+    {
+      "from": "/howto6/monitoring+application+health",
+      "to": "/mendixcloud/monitoring-application-health"
     },
     {
       "from": "/howto6/On-premises+Deployment",
@@ -2177,14 +2201,6 @@
       "to": "/refguide5/associations"
     },
     {
-      "from": "/refguide5/Attribute+condition",
-      "to": "/refguide5/attribute-condition"
-    },
-    {
-      "from": "/refguide5/Attribute+Path+Property",
-      "to": "/refguide5/attribute-path-property"
-    },
-    {
       "from": "/refguide5/Attributes",
       "to": "/refguide5/attributes"
     },
@@ -2213,10 +2229,6 @@
       "to": "/refguide5/break-event"
     },
     {
-      "from": "/refguide5/Button+Style+Property",
-      "to": "/refguide5/button-style-property"
-    },
-    {
       "from": "/refguide5/Button+Widgets",
       "to": "/refguide5/button-widgets"
     },
@@ -2231,14 +2243,6 @@
     {
       "from": "/refguide5/Cancel+button",
       "to": "/refguide5/cancel-button"
-    },
-    {
-      "from": "/refguide5/Caption+Configurable+Property",
-      "to": "/refguide5/caption-configurable-property"
-    },
-    {
-      "from": "/refguide5/Caption+Property",
-      "to": "/refguide5/caption-property"
     },
     {
       "from": "/refguide5/Cast+Object",
@@ -2269,10 +2273,6 @@
       "to": "/refguide5/check-box"
     },
     {
-      "from": "/refguide5/Class+Property",
-      "to": "/refguide5/class-property"
-    },
-    {
       "from": "/refguide5/Client+Activities",
       "to": "/refguide5/client-activities"
     },
@@ -2287,10 +2287,6 @@
     {
       "from": "/refguide5/Clustered+Mendix+Business+Server",
       "to": "/refguide5/clustered-mendix-runtime"
-    },
-    {
-      "from": "/refguide5/Column+Width+Properties",
-      "to": "/refguide5/column-width-properties"
     },
     {
       "from": "/refguide5/Columns",
@@ -2319,10 +2315,6 @@
     {
       "from": "/refguide5/Comparison+Search+Field",
       "to": "/refguide5/comparison-search-field"
-    },
-    {
-      "from": "/refguide5/Condition+Property",
-      "to": "/refguide5/condition-property"
     },
     {
       "from": "/refguide5/Conditions",
@@ -2525,20 +2517,12 @@
       "to": "/refguide5/dialogs"
     },
     {
-      "from": "/refguide5/Dirty+State+Behavior+for+Mendix+6",
-      "to": "/refguide5/dirty-state-behavior-for-mendix-6"
-    },
-    {
       "from": "/refguide5/Document+Template",
       "to": "/refguide5/document-template"
     },
     {
       "from": "/refguide5/Document+Templates",
       "to": "/refguide5/document-templates"
-    },
-    {
-      "from": "/refguide5/Documentation+Property",
-      "to": "/refguide5/documentation-property"
     },
     {
       "from": "/refguide5/Domain+Model",
@@ -2589,12 +2573,12 @@
       "to": "/refguide5/dynamic-label-document-template"
     },
     {
-      "from": "/refguide5/Edit+button",
-      "to": "/refguide5/edit-button"
+      "from": "/refguide5/Dynamic+Label+(Document+Template)",
+      "to": "/refguide5/dynamic-label-document-template"
     },
     {
-      "from": "/refguide5/Editable+Property",
-      "to": "/refguide5/editable-property"
+      "from": "/refguide5/Edit+button",
+      "to": "/refguide5/edit-button"
     },
     {
       "from": "/refguide5/End+Event",
@@ -2603,10 +2587,6 @@
     {
       "from": "/refguide5/Entities",
       "to": "/refguide5/entities"
-    },
-    {
-      "from": "/refguide5/Entity+Path+Property",
-      "to": "/refguide5/entity-path-property"
     },
     {
       "from": "/refguide5/Enumeration+Values",
@@ -2674,7 +2654,7 @@
     },
     {
       "from": "/refguide5/Goal",
-      "to": "/refguide5/goal"
+      "to": "/refguide5/"
     },
     {
       "from": "/refguide5/Grid+action+button",
@@ -2721,36 +2701,12 @@
       "to": "/refguide5/image"
     },
     {
-      "from": "/refguide5/Image+Height",
-      "to": "/refguide5/image-height"
-    },
-    {
-      "from": "/refguide5/Image+Height+Unit",
-      "to": "/refguide5/image-height-unit"
-    },
-    {
-      "from": "/refguide5/Image+Property",
-      "to": "/refguide5/image-property"
-    },
-    {
-      "from": "/refguide5/Image+Responsive",
-      "to": "/refguide5/image-responsive"
-    },
-    {
       "from": "/refguide5/Image+uploader",
       "to": "/refguide5/image-uploader"
     },
     {
       "from": "/refguide5/Image+viewer",
       "to": "/refguide5/image-viewer"
-    },
-    {
-      "from": "/refguide5/Image+Width",
-      "to": "/refguide5/image-width"
-    },
-    {
-      "from": "/refguide5/Image+Width+Unit",
-      "to": "/refguide5/image-width-unit"
     },
     {
       "from": "/refguide5/Images",
@@ -2763,6 +2719,10 @@
     {
       "from": "/refguide5/Inheritance+Split",
       "to": "/refguide5/inheritance-split"
+    },
+    {
+      "from": "/refguide5/Indexes",
+      "to": "/refguide5/indexes"
     },
     {
       "from": "/refguide5/Input+reference+set+selector",
@@ -2779,14 +2739,6 @@
     {
       "from": "/refguide5/Integration+Activities",
       "to": "/refguide5/integration-activities"
-    },
-    {
-      "from": "/refguide5/Is+close+button+Property",
-      "to": "/refguide5/is-close-button-property"
-    },
-    {
-      "from": "/refguide5/Is+default+button+Property",
-      "to": "/refguide5/is-default-button-property"
     },
     {
       "from": "/refguide5/ISession+API+Usage",
@@ -2819,10 +2771,6 @@
     {
       "from": "/refguide5/Label",
       "to": "/refguide5/label"
-    },
-    {
-      "from": "/refguide5/Label+Property",
-      "to": "/refguide5/label-property"
     },
     {
       "from": "/refguide5/Layout",
@@ -2921,10 +2869,6 @@
       "to": "/refguide5/menu-item"
     },
     {
-      "from": "/refguide5/Menu+Source+Properties",
-      "to": "/refguide5/menu-source-properties"
-    },
-    {
       "from": "/refguide5/Menu+Widgets",
       "to": "/refguide5/menu-widgets"
     },
@@ -2985,14 +2929,6 @@
       "to": "/refguide5/module-role"
     },
     {
-      "from": "/refguide5/Module+Roles+Condition+Extended",
-      "to": "/refguide5/module-roles-condition-extended"
-    },
-    {
-      "from": "/refguide5/Module+Roles+Condition+Simple",
-      "to": "/refguide5/module-roles-condition-simple"
-    },
-    {
       "from": "/refguide5/Module+Security",
       "to": "/refguide5/module-security"
     },
@@ -3019,10 +2955,6 @@
     {
       "from": "/refguide5/MySQL",
       "to": "/refguide5/mysql"
-    },
-    {
-      "from": "/refguide5/Name+Property",
-      "to": "/refguide5/name-property"
     },
     {
       "from": "/refguide5/Navigation",
@@ -3057,24 +2989,8 @@
       "to": "/refguide5/odata-representation"
     },
     {
-      "from": "/refguide5/On+Change+Event",
-      "to": "/refguide5/on-change-event"
-    },
-    {
       "from": "/refguide5/On+Click+Event",
       "to": "/refguide5/on-click-event"
-    },
-    {
-      "from": "/refguide5/On+Click+Event+Action",
-      "to": "/refguide5/on-click-event-action"
-    },
-    {
-      "from": "/refguide5/On+Enter+event",
-      "to": "/refguide5/on-enter-event"
-    },
-    {
-      "from": "/refguide5/On+Leave+Event",
-      "to": "/refguide5/on-leave-event"
     },
     {
       "from": "/refguide5/Open+Project+Dialog",
@@ -3314,7 +3230,7 @@
     },
     {
       "from": "/refguide5/Reference+Guide+5",
-      "to": "/refguide5/reference-guide-5"
+      "to": "/refguide5/"
     },
     {
       "from": "/refguide5/Reference+selector",
@@ -3341,10 +3257,6 @@
       "to": "/refguide5/remove-button"
     },
     {
-      "from": "/refguide5/Render+Mode+Property",
-      "to": "/refguide5/render-mode-property"
-    },
-    {
       "from": "/refguide5/Report+Button",
       "to": "/refguide5/report-button"
     },
@@ -3367,14 +3279,6 @@
     {
       "from": "/refguide5/Reporting",
       "to": "/refguide5/report-widgets"
-    },
-    {
-      "from": "/refguide5/Required+message+Property",
-      "to": "/refguide5/required-message-property"
-    },
-    {
-      "from": "/refguide5/Required+Property",
-      "to": "/refguide5/required-property"
     },
     {
       "from": "/refguide5/Retrieve",
@@ -3427,26 +3331,6 @@
     {
       "from": "/refguide5/Search+button",
       "to": "/refguide5/search-button"
-    },
-    {
-      "from": "/refguide5/Search+Field+Attribute+Path+Property",
-      "to": "/refguide5/search-field-attribute-path-property"
-    },
-    {
-      "from": "/refguide5/Search+Field+Caption+Property",
-      "to": "/refguide5/search-field-caption-property"
-    },
-    {
-      "from": "/refguide5/Search+Field+Comparison+Property",
-      "to": "/refguide5/search-field-comparison-property"
-    },
-    {
-      "from": "/refguide5/Search+Field+Default+Value+Property",
-      "to": "/refguide5/search-field-default-value-property"
-    },
-    {
-      "from": "/refguide5/Search+Field+Type+Property",
-      "to": "/refguide5/search-field-type-property"
     },
     {
       "from": "/refguide5/Security",
@@ -3557,10 +3441,6 @@
       "to": "/refguide5/style"
     },
     {
-      "from": "/refguide5/Style+Property",
-      "to": "/refguide5/style-property"
-    },
-    {
       "from": "/refguide5/Summary",
       "to": "/refguide5/summary"
     },
@@ -3579,10 +3459,6 @@
     {
       "from": "/refguide5/Tab+Control",
       "to": "/refguide5/tab-container"
-    },
-    {
-      "from": "/refguide5/Tab+index+Property",
-      "to": "/refguide5/tab-index-property"
     },
     {
       "from": "/refguide5/Tab+page",
@@ -3647,10 +3523,6 @@
     {
       "from": "/refguide5/To+string",
       "to": "/refguide5/to-string"
-    },
-    {
-      "from": "/refguide5/Tooltip+Property",
-      "to": "/refguide5/tooltip-property"
     },
     {
       "from": "/refguide5/Transient+Objects+Garbage+Collecting",
@@ -3723,18 +3595,6 @@
     {
       "from": "/refguide5/Vertical+Split+Pane",
       "to": "/refguide5/vertical-split-pane"
-    },
-    {
-      "from": "/refguide5/Visibility+Property+with+Module+Roles+Extended",
-      "to": "/refguide5/visibility-property-with-module-roles-extended"
-    },
-    {
-      "from": "/refguide5/Visibility+Property+with+Module+Roles+Simple",
-      "to": "/refguide5/visibility-property-with-module-roles-simple"
-    },
-    {
-      "from": "/refguide5/Visible+Property",
-      "to": "/refguide5/visible-property"
     },
     {
       "from": "/refguide5/XML+Reference+Guide",
@@ -4325,8 +4185,9 @@
       "to": "/refguide6/download-from-team-server-dialog"
     },
     {
-      "from": "/refguide6/Drop-down",
-      "to": "/refguide6/drop_down"
+      "from": "~\/refguide6\/Drop-down",
+      "to": "/refguide6/drop_down",
+      "exact": true
     },
     {
       "from": "/refguide6/Drop+Down+Widget",
@@ -4527,6 +4388,10 @@
     {
       "from": "/refguide6/Inheritance+Split",
       "to": "/refguide6/inheritance-split"
+    },
+    {
+      "from": "/refguide6/Indexes",
+      "to": "/refguide6/indexes"
     },
     {
       "from": "/refguide6/Input+reference+set+selector",
@@ -5578,7 +5443,7 @@
     },
     {
       "from": "/tips/Querying+over+self-references",
-      "to": "/tips/querying-over-self_references"
+      "to": "/tips/querying-over-self-references"
     },
     {
       "from": "/tips/Showing+a+Project+in+the+Directory+in+Explorer",
@@ -5587,6 +5452,426 @@
     {
       "from": "/tips/Translatable+Validation+Messages",
       "to": "/tips/translatable-validation-messages"
+    },
+    {
+      "from": "/ReleaseNotes/",
+      "to": "/releasenotes/"
+    },
+    {
+      "from": "/ReleaseNotes/Release+Notes+Home",
+      "to": "/releasenotes/"
+    },
+    {
+      "from": "/ReleaseNotes/Modeler/",
+      "to": "/releasenotes/desktop-modeler/"
+    },
+    {
+      "from": "/ReleaseNotes/6.10.3",
+      "to": "/releasenotes/desktop-modeler/6.10"
+    },
+    {
+      "from": "/ReleaseNotes/6.10.2",
+      "to": "/releasenotes/desktop-modeler/6.10"
+    },
+    {
+      "from": "/ReleaseNotes/6.10.1",
+      "to": "/releasenotes/desktop-modeler/6.10"
+    },
+    {
+      "from": "/ReleaseNotes/6.10.0",
+      "to": "/releasenotes/desktop-modeler/6.10"
+    },
+    {
+      "from": "/ReleaseNotes/6.9.1",
+      "to": "/releasenotes/desktop-modeler/6.9"
+    },
+    {
+      "from": "/ReleaseNotes/6.9.0",
+      "to": "/releasenotes/desktop-modeler/6.9"
+    },
+    {
+      "from": "/ReleaseNotes/6.8.1",
+      "to": "/releasenotes/desktop-modeler/6.8"
+    },
+    {
+      "from": "/ReleaseNotes/6.8.0",
+      "to": "/releasenotes/desktop-modeler/6.8"
+    },
+    {
+      "from": "/ReleaseNotes/6.7.1",
+      "to": "/releasenotes/desktop-modeler/6.7"
+    },
+    {
+      "from": "/ReleaseNotes/6.7.0",
+      "to": "/releasenotes/desktop-modeler/6.7"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.5",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/6.6.0",
+      "to": "/releasenotes/desktop-modeler/6.6"
+    },
+    {
+      "from": "/ReleaseNotes/6.5.1",
+      "to": "/releasenotes/desktop-modeler/6.5"
+    },
+    {
+      "from": "/ReleaseNotes/6.5.0",
+      "to": "/releasenotes/desktop-modeler/6.5"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.4",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/6.4.1",
+      "to": "/releasenotes/desktop-modeler/6.4"
+    },
+    {
+      "from": "/ReleaseNotes/6.4.0",
+      "to": "/releasenotes/desktop-modeler/6.4"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.3",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/6.3.1",
+      "to": "/releasenotes/desktop-modeler/6.3"
+    },
+    {
+      "from": "/ReleaseNotes/6.3.0",
+      "to": "/releasenotes/desktop-modeler/6.3"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.2",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/6.2.1",
+      "to": "/releasenotes/desktop-modeler/6.2"
+    },
+    {
+      "from": "/ReleaseNotes/6.2.0",
+      "to": "/releasenotes/desktop-modeler/6.2"
+    },
+    {
+      "from": "/ReleaseNotes/6.1.0",
+      "to": "/releasenotes/desktop-modeler/6.1"
+    },
+    {
+      "from": "/ReleaseNotes/6.0.1",
+      "to": "/releasenotes/desktop-modeler/6.0"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.1",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/6.0.0",
+      "to": "/releasenotes/desktop-modeler/6.0"
+    },
+    {
+      "from": "/ReleaseNotes/5.21.0",
+      "to": "/releasenotes/desktop-modeler/5.21"
+    },
+    {
+      "from": "/ReleaseNotes/5.20.0",
+      "to": "/releasenotes/desktop-modeler/5.20"
+    },
+    {
+      "from": "/ReleaseNotes/5.19.0",
+      "to": "/releasenotes/desktop-modeler/5.19"
+    },
+    {
+      "from": "/ReleaseNotes/5.18.0",
+      "to": "/releasenotes/desktop-modeler/5.18"
+    },
+    {
+      "from": "/ReleaseNotes/5.17.0",
+      "to": "/releasenotes/desktop-modeler/5.17"
+    },
+    {
+      "from": "/ReleaseNotes/5.16.1",
+      "to": "/releasenotes/desktop-modeler/5.16"
+    },
+    {
+      "from": "/ReleaseNotes/5.16.0",
+      "to": "/releasenotes/desktop-modeler/5.16"
+    },
+    {
+      "from": "/ReleaseNotes/5.15.1",
+      "to": "/releasenotes/desktop-modeler/5.15"
+    },
+    {
+      "from": "/ReleaseNotes/5.14.2",
+      "to": "/releasenotes/desktop-modeler/5.14"
+    },
+    {
+      "from": "/ReleaseNotes/4.08.10",
+      "to": "/releasenotes/desktop-modeler/4.8"
+    },
+    {
+      "from": "/ReleaseNotes/5.15.0",
+      "to": "/releasenotes/desktop-modeler/5.15"
+    },
+    {
+      "from": "/ReleaseNotes/5.14.1",
+      "to": "/releasenotes/desktop-modeler/5.14"
+    },
+    {
+      "from": "/ReleaseNotes/5.14.0",
+      "to": "/releasenotes/desktop-modeler/5.14"
+    },
+    {
+      "from": "/ReleaseNotes/5.13.1",
+      "to": "/releasenotes/desktop-modeler/5.13"
+    },
+    {
+      "from": "/ReleaseNotes/5.13.0",
+      "to": "/releasenotes/desktop-modeler/5.13"
+    },
+    {
+      "from": "/ReleaseNotes/5.12.0",
+      "to": "/releasenotes/desktop-modeler/5.12"
+    },
+    {
+      "from": "/ReleaseNotes/5.11.1",
+      "to": "/releasenotes/desktop-modeler/5.11"
+    },
+    {
+      "from": "/ReleaseNotes/5.11.0",
+      "to": "/releasenotes/desktop-modeler/5.11"
+    },
+    {
+      "from": "/ReleaseNotes/5.10.0",
+      "to": "/releasenotes/desktop-modeler/5.10"
+    },
+    {
+      "from": "/ReleaseNotes/5.09.0",
+      "to": "/releasenotes/desktop-modeler/5.9"
+    },
+    {
+      "from": "/ReleaseNotes/Platform+Portal",
+      "to": "/releasenotes/platform-portal/"
+    },
+    {
+      "from": "/ReleaseNotes/Release+Notes+2016-10-05",
+      "to": "/releasenotes/platform-portal/2016-10-05"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2016-05-12",
+      "to": "/releasenotes/platform-portal/2016-05-12"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2016-03-24",
+      "to": "/releasenotes/platform-portal/2016-03-24"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2016-02-18",
+      "to": "/releasenotes/platform-portal/2016-02-18"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2016-01-13",
+      "to": "/releasenotes/platform-portal/2016-01-13"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-12-01",
+      "to": "/releasenotes/platform-portal/2015-12-01"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-11-30",
+      "to": "/releasenotes/platform-portal/2015-11-30"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-10-16",
+      "to": "/releasenotes/platform-portal/2015-10-16"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-09-17",
+      "to": "/releasenotes/platform-portal/2015-09-17"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-09-03",
+      "to": "/releasenotes/platform-portal/2015-09-03"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-08-06",
+      "to": "/releasenotes/platform-portal/2015-08-06"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-07-31",
+      "to": "/releasenotes/platform-portal/2015-07-31"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-07-24",
+      "to": "/releasenotes/platform-portal/2015-07-24"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-07-16",
+      "to": "/releasenotes/platform-portal/2015-07-16"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-07-03",
+      "to": "/releasenotes/platform-portal/2015-07-03"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-06-16",
+      "to": "/releasenotes/platform-portal/2015-06-16"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-06-02",
+      "to": "/releasenotes/platform-portal/2015-06-02"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-05-29",
+      "to": "/releasenotes/platform-portal/2015-05-29"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-04-21",
+      "to": "/releasenotes/platform-portal/2015-04-21"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-04-16",
+      "to": "/releasenotes/platform-portal/2015-04-16"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-03-31",
+      "to": "/releasenotes/platform-portal/2015-03-31"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-02-26",
+      "to": "/releasenotes/platform-portal/2015-02-26"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-02-19",
+      "to": "/releasenotes/platform-portal/2015-02-19"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-02-05",
+      "to": "/releasenotes/platform-portal/2015-02-05"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2015-01-22",
+      "to": "/releasenotes/platform-portal/2015-01-22"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2014-12-30",
+      "to": "/releasenotes/platform-portal/2014-12-30"
+    },
+    {
+      "from": "/ReleaseNotes/Release+notes+2014-12-23",
+      "to": "/releasenotes/platform-portal/2014-12-23"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+3.0.1",
+      "to": "/releasenotes/model-sdk/3.0.1"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+3.0.0",
+      "to": "/releasenotes/model-sdk/3.0.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.9.1",
+      "to": "/releasenotes/model-sdk/2.9.1"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.9.0",
+      "to": "/releasenotes/model-sdk/2.9.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.8.1",
+      "to": "/releasenotes/model-sdk/2.8.1"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.8.0",
+      "to": "/releasenotes/model-sdk/2.8.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.7.0",
+      "to": "/releasenotes/model-sdk/2.7.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.6.3",
+      "to": "/releasenotes/model-sdk/2.6.3"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.6.0",
+      "to": "/releasenotes/model-sdk/2.6.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.5.0",
+      "to": "/releasenotes/model-sdk/2.5.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.4.0",
+      "to": "/releasenotes/model-sdk/2.4.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.3.0",
+      "to": "/releasenotes/model-sdk/2.3.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.2.2",
+      "to": "/releasenotes/model-sdk/2.2.2"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.1.0",
+      "to": "/releasenotes/model-sdk/2.1.0"
+    },
+    {
+      "from": "/ReleaseNotes/Platform+SDK+2.0.0",
+      "to": "/releasenotes/platform-sdk/2.0.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+2.0.0",
+      "to": "/releasenotes/model-sdk/2.0.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+1.2.0",
+      "to": "/releasenotes/model-sdk/1.2.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+1.1.1",
+      "to": "/releasenotes/model-sdk/1.1.1"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+1.1.0",
+      "to": "/releasenotes/model-sdk/1.1.0"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+1.0.2",
+      "to": "/releasenotes/model-sdk/1.0.2"
+    },
+    {
+      "from": "/ReleaseNotes/Platform+SDK+1.0.2",
+      "to": "/releasenotes/platform-sdk/1.0.2"
+    },
+    {
+      "from": "/ReleaseNotes/Model+SDK+1.0.0",
+      "to": "/releasenotes/model-sdk/1.0.0"
+    },
+    {
+      "from": "/ReleaseNotes/Application+Quality+Monitor",
+      "to": "/releasenotes/AQM/"
+    },
+    {
+      "from": "/ReleaseNotes/Mendix+AQM+2.0+Release+Notes",
+      "to": "/releasenotes/AQM/2.0"
+    },
+    {
+      "from": "/ReleaseNotes/Application+Performance+Monitor",
+      "to": "/releasenotes/APM/"
+    },
+    {
+      "from": "/ReleaseNotes/Beta+features",
+      "to": "/releasenotes/beta-features/"
+    },
+    {
+      "from": "/ReleaseNotes/Application+Test+Suite",
+      "to": "/releasenotes/ATS/"
     }
   ]
 }
