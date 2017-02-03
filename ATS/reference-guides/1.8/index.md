@@ -44,14 +44,12 @@ The ATS Reference Guide is divided into the following different sections, each d
 *   [Custom Actions](custom-actions)
 *   [Custom Action Creation Tutorial](custom-action-creation-tutorial)
 *   [Selectors](selectors)
-*   [Best Practices](best-practices)
 *   [Data Driven Tests](data-driven-tests)
 *   [Test Case Documentation](test-case-documentation)
 
 ## [Test Run](test-run)
 
 *   [Test Run Configuration](test-run)
-*   [Supported selenium hub provider](supported-selenium-hub-provider)
 
 ## [Configuration](configuration)
 
