@@ -3,6 +3,6 @@ title: "Application Test Suite (ATS)"
 space: "ATS (Application Test Suite)"
 ---
 
-## [Best Practices](best-practices/best-practices)
+## [Reference Guide 1.x](refguide1/)
 ## [How-Tos](how-tos/)
-## [Reference guides](reference-guides/)
+## [Best Practices](best-practices/)
