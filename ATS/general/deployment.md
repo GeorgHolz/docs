@@ -84,6 +84,7 @@ Alternative Option 2 is meant for customers who run their app on premise and who
 
 ### Agent Setup
 The setup of the agents depends on your provider.
+
 Selenium Service | Agent Name          | Setup Instructions
 ---------------- | ------------------- | ------------------
 BrowserStack     | BrowserStack Local  | [Here](https://www.browserstack.com/local-testing)

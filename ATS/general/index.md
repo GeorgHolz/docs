@@ -10,3 +10,4 @@ This category provides some general information about Application Test Suite.
 
 *   [Mendix Compatibility](compatibility#mendix)
 *   [Browser Support](compatibility#browser-support)
+*   [Deployment Options](deployment)
