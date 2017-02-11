@@ -33,17 +33,17 @@ Before you pick your option you need to be aware of the differences. The followi
 
 ### Features
 
-Feature                       | Standard       | Alternative 1                 | Alternative 2                 | Alternative 3
------------------------------ | -------------- | ----------------------------- | ----------------------------- | -----------------------------
-Test Automation               | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
-Test Recording                | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
-OS Selection                  | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
-Responsive Testing            | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
-Multiple Browsers<sup>1</sup> | ![][green] All | ![][green] All                | ![][green] All                | ![][grey] Limited<sup>3</sup>
-Mobile Testing<sup>2</sup>    | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
-Mendix Platform Integration   | ![][green] All | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup>
-Live View & Video<sup>2</sup> | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
-Future Proof                  | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Feature                       | Standard           | Alternative 1                 | Alternative 2                 | Alternative 3
+----------------------------- | ------------------ | ----------------------------- | ----------------------------- | -----------------------------
+Test Automation               | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
+Test Recording                | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
+OS Selection                  | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Responsive Testing            | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Multiple Browsers<sup>1</sup> | ![][green] **All** | ![][green] All                | ![][green] All                | ![][grey] Limited<sup>3</sup>
+Mobile Testing<sup>2</sup>    | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Mendix Platform Integration   | ![][green] **All** | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup>
+Live View & Video<sup>2</sup> | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Future Proof                  | ![][green] **Yes** | ![][green] Yes                | ![][green] Yes                | ![][red] No
 
 <sup>1</sup> Only if supported by ATS.  
 <sup>2</sup> Feature not available yet.  
@@ -53,13 +53,13 @@ Future Proof                  | ![][green] Yes | ![][green] Yes                |
 ### Setup and Maintenance
 The following matrix compares the efforts for setup and maintenance of the different options.
 
-Aspect                                | Standard                   | Alternative 1              | Alternative 2               | Alternative 3
-------------------------------------- | -------------------------- | -------------------------- | --------------------------- | ---------------------------------
-Firewall Setup                        | ![][green] None            | ![][red] Required          | ![][green] None<sup>1</sup> | ![][red] Required
-Selenium<sup>2</sup> Runner Setup     | ![][green] No<sup>3</sup>  | ![][green] No<sup>3</sup>  | ![][green] No<sup>3</sup>   | ![][red] Customer responsibility
-Selenium<sup>2</sup> SaaS Agent Setup | ![][green] No<sup>4</sup>  | ![][green] No<sup>4</sup>  | ![][red] Yes                | ![][green] No<sup>4</sup>
-Selenium<sup>2</sup> Maintenance      | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] Customer responsibility
-Selenium<sup>2</sup> Support          | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] No
+Aspect                                | Standard                       | Alternative 1              | Alternative 2               | Alternative 3
+------------------------------------- | ------------------------------ | -------------------------- | --------------------------- | ---------------------------------
+Firewall Setup                        | ![][green] **None**            | ![][red] Required          | ![][green] None<sup>1</sup> | ![][red] Required
+Selenium<sup>2</sup> Runner Setup     | ![][green] **No<sup>3</sup>**  | ![][green] No<sup>3</sup>  | ![][green] No<sup>3</sup>   | ![][red] Customer responsibility
+Selenium<sup>2</sup> SaaS Agent Setup | ![][green] **No<sup>4</sup>**  | ![][green] No<sup>4</sup>  | ![][red] Yes                | ![][green] No<sup>4</sup>
+Selenium<sup>2</sup> Maintenance      | ![][green] **Yes<sup>3</sup>** | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] Customer responsibility
+Selenium<sup>2</sup> Support          | ![][green] **Yes<sup>3</sup>** | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] No
 
 <sup>1</sup> A Selenium SaaS Agent with VPN is used to surpass the company network firewall.  
 <sup>2</sup> Selenium is an open-source 3rd party component, not maintained/supported by Mendix.  
