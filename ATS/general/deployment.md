@@ -33,17 +33,17 @@ Before you pick your option you need to be aware of the differences. The followi
 
 ### Features
 
-Feature                       | Standard               | Alternative 1                          | Alternative 2                          | Alternative 3
------------------------------ | ---------------------- | -------------------------------------- | -------------------------------------- | --------------------------------------
-Test Automation               | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :white_check_mark: Yes
-Test Recording                | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :white_check_mark: Yes
-OS Selection                  | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :no_entry_sign: No
-Responsive Testing            | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :no_entry_sign: No
-Multiple Browsers<sup>1</sup> | :white_check_mark: All | :white_check_mark: All                 | :white_check_mark: All                 | :grey_exclamation: Limited<sup>3</sup>
-Mobile Testing<sup>2</sup>    | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :no_entry_sign: No
-Mendix Platform Integration   | :white_check_mark: All | :grey_exclamation: Limited<sup>4</sup> | :grey_exclamation: Limited<sup>4</sup> | :grey_exclamation: Limited<sup>4</sup>
-Live View & Video<sup>2</sup> | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :no_entry_sign: No
-Future Proof                  | :white_check_mark: Yes | :white_check_mark: Yes                 | :white_check_mark: Yes                 | :no_entry_sign: No
+Feature                       | Standard       | Alternative 1                 | Alternative 2                 | Alternative 3
+----------------------------- | -------------- | ----------------------------- | ----------------------------- | -----------------------------
+Test Automation               | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
+Test Recording                | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][green] Yes
+OS Selection                  | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Responsive Testing            | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Multiple Browsers<sup>1</sup> | ![][green] All | ![][green] All                | ![][green] All                | ![][grey] Limited<sup>3</sup>
+Mobile Testing<sup>2</sup>    | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Mendix Platform Integration   | ![][green] All | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup> | ![][grey] Limited<sup>4</sup>
+Live View & Video<sup>2</sup> | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
+Future Proof                  | ![][green] Yes | ![][green] Yes                | ![][green] Yes                | ![][red] No
 
 <sup>1</sup> Only if supported by ATS.  
 <sup>2</sup> Feature not available yet.  
@@ -53,16 +53,18 @@ Future Proof                  | :white_check_mark: Yes | :white_check_mark: Yes 
 ### Setup and Maintenance
 The following matrix compares the efforts for setup and maintenance of the different options.
 
-Aspect                           | Standard                           | Alternative 1                           | Alternative 2                          | Alternative 3
--------------------------------- | ---------------------------------- | --------------------------------------- | -------------------------------------- | --------------------------------------
-Firewall Setup                   | :white_check_mark: None            | :no_entry_sign: Required                | :white_check_mark: None<sup>1</sup>    | :no_entry_sign: Required
-Selenium<sup>2</sup> Setup       | :white_check_mark: Yes<sup>3</sup> | :white_check_mark: Yes<sup>3</sup>      | :white_check_mark: Yes<sup>3</sup>     | :no_entry_sign: Customer responsibility
-Selenium<sup>2</sup> Maintenance | :white_check_mark: Yes<sup>3</sup> | :white_check_mark: Yes<sup>3</sup>      | :white_check_mark: Yes<sup>3</sup>     | :no_entry_sign: Customer respoinsibility
-Selenium<sup>2</sup> Support     | :white_check_mark: Yes<sup>3</sup> | :white_check_mark: Yes<sup>3</sup>      | :white_check_mark: Yes<sup>3</sup>     | :no_entry_sign: No
+Aspect                                | Standard                   | Alternative 1              | Alternative 2               | Alternative 3
+------------------------------------- | -------------------------- | -------------------------- | --------------------------- | ---------------------------------
+Firewall Setup                        | ![][green] None            | ![][red] Required          | ![][green] None<sup>1</sup> | ![][red] Required
+Selenium<sup>2</sup> Runner Setup     | ![][green] No<sup>3</sup>  | ![][green] No<sup>3</sup>  | ![][green] No<sup>3</sup>   | ![][red] Customer responsibility
+Selenium<sup>2</sup> SaaS Agent Setup | ![][green] No<sup>4</sup>  | ![][green] No<sup>4</sup>  | ![][red] Yes                | ![][green] No<sup>4</sup>
+Selenium<sup>2</sup> Maintenance      | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] Customer responsibility
+Selenium<sup>2</sup> Support          | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup> | ![][green] Yes<sup>3</sup>  | ![][red] No
 
 <sup>1</sup> A Selenium SaaS Agent with VPN is used to surpass the company network firewall.  
 <sup>2</sup> Selenium is an open-source 3rd party component, not maintained/supported by Mendix.  
-<sup>3</sup> Provided by your Selenium SaaS provider.
+<sup>3</sup> Provided by your Selenium SaaS provider.  
+<sup>4</sup> Not required in this option.  
 
 ## Standard
 ![Standard Option](attachments/deploymentoption_standard.png)
@@ -110,7 +112,7 @@ The feature set in this option is limited.
 We provide basic installation instructions for the Selenium Runner based on Docker containers. For details we advise to read the official documentation for Docker [here](https://docs.docker.com/engine/getstarted/) and for Selenium [here](http://www.seleniumhq.org/docs/) and [here](https://github.com/SeleniumHQ/docker-selenium).
 
 <div class="alert alert-info">
-The current ATS version requires Selenium version 2.53.1. If ATS upgrades to a newer Selenium version the customer is obligated to upgrade its Selenium Runner to the new version as well.
+The current ATS version requires Selenium version 2.53.0. If ATS upgrades to a newer Selenium version the customer is obligated to upgrade its Selenium Runner to the new version as well.
 </div>
 
 Before you start please make sure that your server has internet access to download the container images.
@@ -147,3 +149,7 @@ Before you start please make sure that your server has internet access to downlo
 ```sh
 docker-compose scale firefoxnode=2 chromenode=2
 ```
+
+[green]:attachments/green.png
+[grey]:attachments/grey.png
+[red]:attachments/red.png
